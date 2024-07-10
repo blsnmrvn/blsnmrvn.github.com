@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Karasuma Gothic';
-    src: url('fonts/KarasumaGothic-Regular.otf');
+    src: url('https://res.cloudinary.com/dvni5kh7n/raw/upload/v1720620445/o6u1jgmsze65fyqqwvwl.otf');
     font-weight:normal;
 }
 
 @font-face {
     font-family: 'Karasuma Gothic';
-    src: url('fonts/KarasumaGothic-Medium.otf');
+    src: url('https://res.cloudinary.com/dvni5kh7n/raw/upload/v1720620446/opat1jo4ih3k8dfvyudq.otf');
     font-weight: 500;
 }
 
