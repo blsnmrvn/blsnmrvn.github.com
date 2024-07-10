@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Karasuma Gothic';
+    src: url('fonts/KarasumaGothic-Regular.otf');
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: 'Karasuma Gothic';
+    src: url('fonts/KarasumaGothic-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Karasuma Gothic';
+    src: url('fonts/KarasumaGothic-Bold.otf');
+    font-weight: bold;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    max-width: 500px;
+    margin: auto;
+
+    font-family: 'Karasuma Gothic';
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-weight: normal;
+
+    background-color: #181a1e;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.emoji-sized-img {
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+    filter: invert(1);
+}
