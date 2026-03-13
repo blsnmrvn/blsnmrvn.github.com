@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Ronzino";
+  src: url("/assets/fonts/Ronzino-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ronzino";
+  src: url("/assets/fonts/Ronzino-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ronzino";
+  src: url("/assets/fonts/Ronzino-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ronzino";
+  src: url("/assets/fonts/Ronzino-Oblique.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ronzino";
+  src: url("/assets/fonts/Ronzino-MediumOblique.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "zalando Sans";
+    src: url("/assets/fonts/ZalandoSans-Italic-VariableFont_wdth,wght.woff2") format("woff2");
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "zalando Sans";
+    src: url("/assets/fonts/ZalandoSans-VariableFont_wdth,wght.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+/* USAGE
+@import url("https://cdn.jsdelivr.net/gh/blsnmrvn/blsnmrvn.github.io/fonts.css"); */
