@@ -1,23 +1,259 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Blasius N. Marvin is an Indonesian music producer, designer, writer, photographer, and web developer.">
+    <meta name="theme-color" content="#0b0c0d">
     <title>blasius n. marvin</title>
+    <link rel="preload" href="assets/fonts/Ronzino-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.25/dist/lenis.min.js"></script>
+    <script defer src="js/index.js"></script>
   </head>
   <body>
-    <main>
-        <h1>&gt; hello&excl;</h1> 
-        <p>i'm <b>blasius n. marvin.</b> an indonesian music producer, designer, screen/song/novel writer, photographer, <i>vanlithsian</i>, web dev, and a lot more to uncover...</p>
-        <p>	&lt; website wip. &gt;</p>
-        <hr>
+    <div class="scroll-progress" aria-hidden="true"></div>
 
-        <p><b>see my other projects as</b> <a href="https://open.spotify.com/artist/5Bb7W33Av3JtOOiqY7ijFo">lumiscape</a> and <a href="https://axelleod.straw.page">axelleondrugs* <span><img src="https://res.cloudinary.com/dvni5kh7n/image/upload/v1720620252/jcyctnw2xfqk9agelbwx.png" alt="axelleondrugs's logo" class="emoji-sized-img"></span></a>!</p>
-        <p><a href="https://axelleod.notepin.co"><span><img src="https://res.cloudinary.com/dvni5kh7n/image/upload/v1720620252/jcyctnw2xfqk9agelbwx.png" alt="axelleondrugs's logo" class="emoji-sized-img"></span>'s BLOGS!!!!!!! </a></p>
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="blasius n. marvin home">
+        <span>Blasius N. Marvin</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" title="Menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-panel" aria-hidden="true">
+      <div class="menu-panel__inner">
+        <a href="#work">Work</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+        <a href="https://open.spotify.com/artist/5Bb7W33Av3JtOOiqY7ijFo" target="_blank" rel="noreferrer">Lumiscape</a>
+      </div>
+    </div>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" data-parallax="0.16" aria-hidden="true">
+          <img src="assets/DSC_0150.JPG" alt="">
+        </div>
+        <div class="hero-content">
+          <h1 id="hero-title" data-reveal>Blasius N. Marvin</h1>
+          <div class="hero-copy" data-reveal>
+            <p>Music producer, designer, screenwriter, songwriter, novelist, photographer, vanlithsian, web dev, and still opening new rooms.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">Enter the index</a>
+              <a class="button button-secondary" href="https://axelleod.notepin.co" target="_blank" rel="noreferrer">Read the blog</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Creative fields">
+        <div class="ticker-track">
+          <span>songwriting</span>
+          <span>photography</span>
+          <span>novelist</span>
+          <span>music production</span>
+          <span>screenwriting</span>
+          <span aria-hidden="true">songwriting</span>
+          <span aria-hidden="true">photography</span>
+          <span aria-hidden="true">novelist</span>
+          <span aria-hidden="true">music production</span>
+          <span aria-hidden="true">screenwriting</span>
+          <span aria-hidden="true">interfaces</span>
+        </div>
+      </section>
+
+      <section class="statement section-pad">
+        <div class="section-label" data-reveal>Profile</div>
+        <div class="statement-grid">
+          <p class="large-copy" data-reveal>
+            I make everything <span style="color:var(--accent)">creative</span> I'm currently interested in.
+          </p>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-reveal>Selected</p>
+            <h2 id="work-title" data-reveal>Work index</h2>
+          </div>
+          <p data-reveal>Open-ended projects, aliases, and public fragments.</p>
+        </div>
+
+        <div class="work-layout">
+          <aside class="work-visual" data-reveal>
+            <img src="assets/IMG_20241011_204314_4.png" alt="Abstract creative studio desk with music and visual materials">
+          </aside>
+          <div class="work-list">
+            <a class="work-row" href="https://open.spotify.com/artist/5Bb7W33Av3JtOOiqY7ijFo" target="_blank" rel="noreferrer" data-reveal>
+              <span>01</span>
+              <strong>lumiscape</strong>
+              <em>music alias</em>
+              <small>spotify</small>
+            </a>
+            <a class="work-row" href="https://axelle.nekoweb.org" target="_blank" rel="noreferrer" data-reveal>
+              <span>02</span>
+              <strong>Axelleondrugs*</strong>
+              <em>music alias - persona project</em>
+              <small>website</small>
+            </a>
+            <a class="work-row" href="https://open.spotify.com/playlist/5Kpe2pRr9Z6cxUl47OZR4V" target="_blank" rel="noreferrer" data-reveal>
+              <span>xx</span>
+              <strong>my discography</strong>
+              <em>all my music in one playlist</em>
+              <small>spotify</small>
+            </a>
+            <a class="work-row" href="https://blsnmrvn.github.io/screenplays/" data-reveal>
+              <span>03</span>
+              <strong>my published screenplays</strong>
+              <em>all my finished screenplays</em>
+              <small>website</small>
+            </a>
+            <a class="work-row" href="https://github.com/arvdevable" data-reveal>
+              <span>04</span>
+              <strong>coding stuff</strong>
+              <em>all my programming projects</em>
+              <small>Private</small>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="capabilities section-pad" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-reveal>Modes</p>
+            <h2 id="capabilities-title" data-reveal>Capabilities</h2>
+          </div>
+          <p data-reveal>One archive, several ways of making.</p>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability" data-reveal>
+            <span>NVL-101</span>
+            <h3>Sound</h3>
+            <ul>
+              <li>Music production</li>
+              <li>Songwriting</li>
+              <li>Atmospheric edits</li>
+              <li>Alias direction</li>
+            </ul>
+          </article>
+          <article class="capability" data-reveal>
+            <span>IMG-202</span>
+            <h3>Image</h3>
+            <ul>
+              <li>Graphic design</li>
+              <li>Photography</li>
+              <li>Cover systems</li>
+              <li>Motion references</li>
+            </ul>
+          </article>
+          <article class="capability" data-reveal>
+            <span>WEB-303</span>
+            <h3>Web</h3>
+            <ul>
+              <li>Static sites</li>
+              <li>Interactive pages</li>
+              <li>Portfolio systems</li>
+              <li>Front-end experiments</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!--
+
+      <section class="process section-pad" id="process" aria-labelledby="process-title">
+        <div class="process-intro">
+          <p class="section-label" data-reveal>Process</p>
+          <h2 id="process-title" data-reveal>Four passes before a thing feels alive.</h2>
+        </div>
+        <div class="process-list">
+          <article data-reveal>
+            <span>01</span>
+            <h3>Collect</h3>
+            <p>Pull from drafts, images, loops, screenshots, half-lines, and accidents.</p>
+          </article>
+          <article data-reveal>
+            <span>02</span>
+            <h3>Arrange</h3>
+            <p>Find the order, rhythm, negative space, and first useful constraint.</p>
+          </article>
+          <article data-reveal>
+            <span>03</span>
+            <h3>Build</h3>
+            <p>Make the thing usable in the browser, timeline, page, or document.</p>
+          </article>
+          <article data-reveal>
+            <span>04</span>
+            <h3>Release</h3>
+            <p>Publish what is ready, keep what needs pressure, return later.</p>
+          </article>
+        </div>
+      </section>
+      -->
+
+      <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-label" data-reveal>Contact</p>
+          <h2 id="contact-title" data-reveal>Collab, bro?</h2>
+        </div>
+        <div class="contact-links" data-reveal>
+          <p class="contact-label">Reach</p>
+          <p>Discord — axelleondrugs</p>
+          <p>Email — blsnmrvn004@gmail.com</p>
+        </div>
+      </section>
     </main>
-	<script src="js/index.js"></script>
+
+    <footer class="site-footer">
+      <div class="footer-meta">
+        <p class="footer-mark">
+          &copy; MMXXI - <span id="footer-year"></span>
+        </p>
+        <p>
+          Project by Blasius Nafiri Marvin<br>
+          All rights reserved, <a href="https://arvdevable.github.io/licenses">usage guidelines</a>.
+        </p>
+      </div>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script>
+      const footerYear = document.getElementById('footer-year');
+      if (footerYear) {
+        const romanize = (value) => {
+          const lookup = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
+          let numeral = '';
+          let remaining = value;
+
+          for (const [symbol, amount] of Object.entries(lookup)) {
+            while (remaining >= amount) {
+              numeral += symbol;
+              remaining -= amount;
+            }
+          }
+
+          return numeral;
+        };
+
+        footerYear.textContent = romanize(new Date().getFullYear());
+      }
+    </script>
   </body>
 </html>
